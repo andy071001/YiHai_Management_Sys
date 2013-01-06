@@ -1,0 +1,9 @@
+" "
+
+class SetSerializer(serializers.ModelSerializer):
+    " "    
+    
+    class Meta:
+        model = Set
+        fields = ('product_type','quantity',inquiry)
+
